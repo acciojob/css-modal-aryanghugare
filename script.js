@@ -4,7 +4,7 @@ const closeBtn = document.querySelector(".close-modal");
 
 button.addEventListener("click", (e) => {
 	e.preventDefault();
-	modal.style.display = "flex";
+	modal.style.display = "block";
 });
 
 // Close when clicking close button
